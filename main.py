@@ -62,8 +62,8 @@ class App:
             self.js.console.log('ciao')
     def text(self, answer):
         self.response = chatgpt(answer)
-        self.js.aiMessage(self.response)
-        #self.js.document.getElementById('chat').innerHTML = self.js.document.getElementById('chat').innerHTML + self.response
+        #self.js.aiMessage(self.response)
+        self.js.document.getElementById('chat').innerHTML = self.js.document.getElementById('chat').innerHTML + self.response
     def refresh(self):
         global history
         history = ''
