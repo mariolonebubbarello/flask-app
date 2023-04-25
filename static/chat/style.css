@@ -1,0 +1,102 @@
+body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ececec;
+    background-color: rgb(13, 63, 60);
+}
+
+#chat {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0px 0px -150px;
+    max-height: 550px;
+    /* max-width: 300px;
+    overflow-wrap: break-word; */
+    overflow: auto;
+}
+
+.user {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 300px;
+    overflow: auto;
+}
+
+.ai {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(18, 105, 100);
+    max-width: 300px;
+    overflow: auto;
+    text-align: left;
+}
+
+#message {
+    width: 300px;
+    height: 18px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin: -14px 0px 0px -160px;
+    background-color: rgb(13, 63, 60);
+    box-shadow: 3px 3px 3px 3px rgb(25, 24, 27);
+    border: none;
+    resize: none;
+    border-radius: 5px;
+    color: #ececec;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#message:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #796d6d;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4e4646; 
+}
+
+#refresh {
+    box-shadow: 3px 3px 3px 3px rgb(25, 24, 27);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 80%;
+    top: 95%;
+    margin: -17.5px -2.5px -2.5px -17.5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#send {
+    box-shadow: 3px 3px 3px 3px rgb(25, 24, 27);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 70%;
+    top: 95%;
+    margin: -17.5px -2.5px -2.5px -17.5px;
+    padding: 5px;
+    border-radius: 5px;
+}

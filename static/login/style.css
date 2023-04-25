@@ -1,0 +1,39 @@
+html, body {
+    background-color: rgb(13, 63, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ececec;
+}
+
+#loginDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0px 0px -150px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid rgb(3, 32, 30);
+    border-width: 2px;
+    box-shadow: 3px 3px 3px 3px rgb(25, 24, 27);
+}
+
+#loginForm {
+    margin-top: auto;
+}
+
+#login {
+    box-shadow: 2px 2px 2px 2px rgb(25, 24, 27);
+    background-color: rgb(14, 87, 82);
+    border: none;
+    border-radius: 5px;
+    color: #eceaea;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#login:focus {
+    outline: None;
+}
